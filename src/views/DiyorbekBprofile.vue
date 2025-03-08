@@ -182,7 +182,9 @@
                      <span>Add friend</span>
                  </div>
               </div>
+              
             </div>
+            
           </div>
      </div>
           <div class="w-full h-[60px] bg-white">
@@ -204,10 +206,10 @@
           </div>
     </div>
 
-    <div class="bg-[#F2F4F7] mt-6 pb-4 flex  justify-center gap-4">
+    <div class="bg-[#F2F4F7]    pb-4 flex  justify-center gap-[30px]">
       <!-- Feft Accaunt -->
-        <div>
-          <div class="w-[360px] h-[170px] bg-white rounded-lg p-4 mt-4 ">
+        <div class="w-[360px] h-[500px] sticky top-0  ">
+          <div class="w-[360px] sticky top-0   h-[170px] bg-white rounded-lg p-4 mt-4 ">
               <h1 class="text-[20px] font-bold">Intro</h1>
               <div class="mt-4">
                 <button class="w-full h-10 bg-[#E2E5E9] font-bold text-black rounded-lg">Add Bio</button>
@@ -268,14 +270,140 @@
         </div>
       <!-- Feft Accaunt -->
       <!-- Right Accaunt -->
-      <div>
-          <div  class="w-[500px] h-[122px] bg-white mt-6 rounded-lg">
-              <div>
-                <img class="rounded-full object-cover" src="/diyorbek-logativ-2.jpg" alt="" width="40px" height="40px">
-              </div>
+      <div class="">
+          <div class="w-[500px]  h-auto bg-white shadow-lg rounded-lg border p-4 mt-4">
+        <div class="w-full flex justify-between items-center gap-3">
+          <span
+            class="flex justify-center items-center w-12 h-12 rounded-full bg-gray-200 cursor-pointer hover:bg-gray-300"
+          >
+            <img src="/user.png" alt="" class="w-[80%] h-[80%]" />
+          </span>
+          <input
+            type="text"
+            placeholder="What's on your mind?"
+            class="w-full bg-gray-100 py-[8px] px-4 rounded-full outline-none cursor-pointer hover:bg-gray-200"
+          />
+        </div>
+        <hr class="mt-2" />
+        <div class="flex justify-between items-center mt-2">
+          <span
+            class="flex justify-center items-center hover:bg-gray-100 cursor-pointer py-2 w-full rounded-lg gap-2"
+          >
+            <img src="/videoic.png" alt="" />
+            Live Video
+          </span>
+          <span
+            class="flex justify-center items-center hover:bg-gray-100 cursor-pointer py-2 w-full rounded-lg gap-2"
+          >
+            <img src="/photo.png" alt="" />
+            Photo/video
+          </span>
+          <span
+            class="flex justify-center items-center hover:bg-gray-100 cursor-pointer py-2 w-full rounded-lg gap-2"
+          >
+            <img src="/emoji.png" alt="" />
+            Feeling/activity
+          </span>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-3 mt-4">
+        <div class="flex items-center justify-between">
+          <h5 class="font-bold text-xl">Posts</h5>
+          <div>
+            <a class="bg-gray-200 p-2 rounded-md mr-3 hover:bg-gray-300" href="#"><i class="fa-solid fa-gear"></i> Filters</a>
+            <a class="bg-gray-200 p-2 rounded-md hover:bg-gray-300" href="#"><i class="fa-solid fa-gear"></i> Panage posts</a>
           </div>
+        </div> 
+        <hr class="my-2">
+        <div class="flex items-center justify-center p-2 cursor-pointer">
+          <div class="w-[100%] h-[32px] text-blue-500 flex items-center justify-center border-blue-500 border-b-4">
+            <a href="#"><i class="fa-solid fa-bars"></i> List view</a>
+          </div>
+          <div class="w-[100%] text-gray-400 flex items-center h-[32px] rounded-lg justify-center cursor-pointer hover:bg-gray-100">
+            <a href="#"><i class="fa-brands fa-windows"></i> Grid view</a>
+          </div>
+        </div>
+      </div>
+
+<div class=" ">
+      <div class="w-[500px] h-[425px] mt-5  rounded-xl bg-white   ">
+      
+        <div class=" flex  justify-between ">
+            <div class="flex  gap-3">
+          <img
+            class="rounded-full object-cover w-[40px] h-[40px]"
+            src="/diyorbek-logativ-2.jpg"
+            alt=""
+          />
+          <div>
+            <h1 class="text-[15px] flex  gap-1 text-black items-center font-bold">
+              Humoyun Mamasodiqov <p class="text-[13px] font-normal text-gray-400 ">обновил фото профиля.</p>
+            </h1>
+            <span class=" flex gap-1 items-center">
+              <p class="text-[13px] text-gray-600 flex  ">5 дн.</p>
+         
+            </span>
+            
+          </div>
+        </div>
+        <div>
+          <i class="fa-solid fa-ellipsis-vertical mr-5 rotate-[90deg]"></i>
+        </div>
+        </div>
+        <div class="w-full h-full">
+          <img
+            class=" object-cover w-full"
+            src="/diyorbek-logativ-2.jpg"
+            alt=""
+          />
+          
+        </div>
+      </div>
+  
+      
+    </div>
+
+
+      <div class="bg-white w-[500px] mt-5 rounded-xl p-3 text-center">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center ">
+              <img src="/user.png" alt="" class="w-[40px] h-[40px] bg-gray-300 p-1 rounded-full"/>
+              <div class="ml-3">
+                <h1 class="text-sm font-bold">Humoyun Mamasodiqov</h1>
+                <span class="text-sm text-gray-500">November 28, 2000 <i class="fa-solid fa-clock"></i> <i class="fa-solid fa-user-group"></i></span>
+              </div>
+          </div>  
+          <i class="fa-solid fa-ellipsis-vertical px-3 py-[6px] rounded-full hover:bg-gray-300"></i>
+        </div>
+        <img src="/user.png" alt="" class="w-[40px] h-[40px] bg-gray-300 p-1 mx-auto rounded-full"/>
+        <span class="text-xl font-semibold cursor-pointer hover:border-b-2 border-b-black">Born on November 28, 2000</span>
+        <hr class="mt-5">
+        <div class="flex items-center justify-around my-[6px]">
+          <a class="hover:bg-gray-200 text-gray-500 px-3 py-1 rounded-lg" href="#"><i class="fa-solid fa-thumbs-up"></i> Like</a>
+          <a class="hover:bg-gray-200 text-gray-500 px-3 py-1 rounded-lg" href="#"><i class="fa-solid fa-comment"></i> Comment</a>
+          <a class="hover:bg-gray-200 text-gray-500 px-3 py-1 rounded-lg" href="#"><i class="fa-solid fa-share-from-square"></i> Send</a>
+          <a class="hover:bg-gray-200 text-gray-500 px-3 py-1 rounded-lg" href="#"><i class="fa-solid fa-paper-plane"></i> Shere</a>
+        </div>
+        <hr>
+        <div class="w-full flex justify-between items-center gap-3 mt-2 relative">
+          <span
+            class="flex justify-center items-center w-12 h-12 rounded-full bg-gray-200 cursor-pointer hover:bg-gray-300"
+          >
+            <img src="/user.png" alt="" class="w-[100px] h-[40px]" />
+          </span>
+          <input
+            type="text"
+            placeholder="Write a comment..."
+            class="w-full bg-gray-100 py-[8px] px-4 rounded-full outline-none cursor-pointer hover:bg-gray-200"
+          />
+           <a class="absolute right-5 text-gray-500 px-3 py-1 rounded-lg" href="#"><i class="fa-solid fa-paper-plane"></i></a>
+        </div>
+      </div>
       </div>
       <!-- Right Accaunt -->
+
+
     </div>
 
 </template>
